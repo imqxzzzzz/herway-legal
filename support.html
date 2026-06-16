@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support — Hèr Way</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #fff8f8;
+      color: #1a1a1a;
+      line-height: 1.7;
+      padding: 0 16px;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 60px 0 80px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 48px;
+    }
+
+    .brand-logo {
+      width: 40px;
+      height: 40px;
+      background: linear-gradient(135deg, #e8a0b0, #c96b8a);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 20px;
+    }
+
+    .brand-name {
+      font-size: 20px;
+      font-weight: 700;
+      color: #c96b8a;
+      letter-spacing: -0.3px;
+    }
+
+    .hero {
+      margin-bottom: 48px;
+    }
+
+    .hero h1 {
+      font-size: 36px;
+      font-weight: 800;
+      color: #1a1a1a;
+      letter-spacing: -0.5px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 17px;
+      color: #666;
+    }
+
+    .contact-card {
+      background: linear-gradient(135deg, #c96b8a, #e8a0b0);
+      border-radius: 18px;
+      padding: 32px;
+      color: white;
+      margin-bottom: 48px;
+      text-align: center;
+    }
+
+    .contact-card h2 {
+      font-size: 22px;
+      font-weight: 800;
+      margin-bottom: 8px;
+    }
+
+    .contact-card p {
+      font-size: 15px;
+      opacity: 0.9;
+      margin-bottom: 20px;
+    }
+
+    .contact-card a {
+      display: inline-block;
+      background: white;
+      color: #c96b8a;
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 700;
+      padding: 13px 30px;
+      border-radius: 50px;
+    }
+
+    .response-badge {
+      display: inline-block;
+      background: rgba(255,255,255,0.2);
+      color: white;
+      font-size: 13px;
+      font-weight: 600;
+      padding: 5px 14px;
+      border-radius: 20px;
+      margin-top: 16px;
+    }
+
+    h2.section-title {
+      font-size: 22px;
+      font-weight: 800;
+      color: #1a1a1a;
+      margin-bottom: 20px;
+      letter-spacing: -0.3px;
+    }
+
+    .faq-list {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      margin-bottom: 48px;
+    }
+
+    .faq-item {
+      background: white;
+      border: 1px solid #f0d0d8;
+      border-radius: 14px;
+      padding: 20px 22px;
+    }
+
+    .faq-item h3 {
+      font-size: 15px;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin-bottom: 8px;
+    }
+
+    .faq-item p {
+      font-size: 14px;
+      color: #555;
+    }
+
+    .faq-item a {
+      color: #c96b8a;
+      font-weight: 600;
+    }
+
+    .links-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      margin-bottom: 48px;
+    }
+
+    @media (max-width: 480px) {
+      .links-grid { grid-template-columns: 1fr; }
+    }
+
+    .link-card {
+      background: white;
+      border: 1px solid #f0d0d8;
+      border-radius: 14px;
+      padding: 20px;
+      text-decoration: none;
+      display: block;
+      transition: border-color 0.2s;
+    }
+
+    .link-card:hover {
+      border-color: #c96b8a;
+    }
+
+    .link-card .icon {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .link-card h3 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin-bottom: 4px;
+    }
+
+    .link-card p {
+      font-size: 13px;
+      color: #888;
+    }
+
+    .footer {
+      margin-top: 60px;
+      padding-top: 24px;
+      border-top: 1px solid #f0d0d8;
+      text-align: center;
+      font-size: 13px;
+      color: #aaa;
+    }
+
+    .footer a {
+      color: #c96b8a;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="brand">
+      <div class="brand-logo">🌸</div>
+      <span class="brand-name">Hèr Way</span>
+    </div>
+
+    <div class="hero">
+      <h1>Support</h1>
+      <p>We're here to help. Reach out anytime and we'll get back to you.</p>
+    </div>
+
+    <div class="contact-card">
+      <h2>Contact Us</h2>
+      <p>Have a question, bug report, or need help with your account?</p>
+      <a href="mailto:herwayofficialapp@gmail.com">herwayofficialapp@gmail.com</a>
+      <br />
+      <span class="response-badge">⏱ We typically respond within 24–48 hours</span>
+    </div>
+
+    <h2 class="section-title">Frequently Asked Questions</h2>
+
+    <div class="faq-list">
+
+      <div class="faq-item">
+        <h3>How do I cancel my subscription?</h3>
+        <p>Open the iOS Settings app → tap your name (Apple ID) → Subscriptions → Hèr Way → Cancel Subscription. Cancellation stops the next billing cycle; you keep access until the current period ends. Apple handles all billing — we don't store your payment details.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How do I restore a purchase I already made?</h3>
+        <p>Open Hèr Way → tap your profile → go to the paywall and tap "Restore Purchases." Make sure you're signed into the same Apple ID used for the original purchase.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How do I delete my account and data?</h3>
+        <p>Inside the app, go to Settings → Privacy &amp; Security → Delete Account. This permanently removes your account, all logged data (cycle, pregnancy, postpartum, BuildHer, chat), and your local cache. This action is irreversible. You can also email us at <a href="mailto:herwayofficialapp@gmail.com">herwayofficialapp@gmail.com</a> and we'll process the deletion manually.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>My cycle/pregnancy data isn't syncing. What do I do?</h3>
+        <p>First, check that you're connected to the internet and signed into your account. Try closing the app fully and reopening it. If the issue persists, email us with your device model and iOS version and we'll help you investigate.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Can I use Hèr Way without a subscription?</h3>
+        <p>Yes — core features are available for free. The premium subscription unlocks advanced AI insights, full cycle history, detailed pattern analysis, and more. You can explore the app before deciding.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Is my health data private?</h3>
+        <p>Yes. Your data is stored securely in Firebase (Google Cloud) under your account. We never sell it, share it with advertisers, or use it to train AI models. You can delete everything at any time. See our <a href="privacy-policy.html">Privacy Policy</a> for full details.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Is the AI a doctor or medical professional?</h3>
+        <p>No. Hèr Way is an informational wellness companion. Nothing in the app — including AI responses, cycle predictions, pregnancy guidance, or fitness suggestions — is medical advice. Always consult your healthcare provider for medical decisions.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>I found a bug. How do I report it?</h3>
+        <p>Email <a href="mailto:herwayofficialapp@gmail.com">herwayofficialapp@gmail.com</a> with a description of what happened, your device model, and iOS version. Screenshots or screen recordings are super helpful. We take every bug report seriously.</p>
+      </div>
+
+    </div>
+
+    <h2 class="section-title">More Resources</h2>
+
+    <div class="links-grid">
+      <a class="link-card" href="privacy-policy.html">
+        <div class="icon">🔒</div>
+        <h3>Privacy Policy</h3>
+        <p>How we collect, use, and protect your data</p>
+      </a>
+      <a class="link-card" href="mailto:herwayofficialapp@gmail.com">
+        <div class="icon">✉️</div>
+        <h3>Email Support</h3>
+        <p>herwayofficialapp@gmail.com</p>
+      </a>
+    </div>
+
+    <div class="footer">
+      &copy; 2026 Hèr Way. All rights reserved. &nbsp;·&nbsp;
+      <a href="privacy-policy.html">Privacy Policy</a>
+    </div>
+
+  </div>
+</body>
+</html>
